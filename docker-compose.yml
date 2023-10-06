@@ -33,8 +33,8 @@ services:
     image: mariadb:latest
     environment:
       MYSQL_DATABASE: voorbeeld_db
-      MYSQL_USER: milou
-      MYSQL_PASSWORD: createApi
+      MYSQL_USER: ashlay
+      MYSQL_PASSWORD: passwordAPI
       MYSQL_ROOT_PASSWORD: 4dy5qwtrsag#!sad
     ports:
       - 3308:3306
